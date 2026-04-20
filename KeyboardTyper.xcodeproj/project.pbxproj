@@ -11,6 +11,7 @@
 		95979A472F91D4B4002B37F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95979A462F91D4B4002B37F9 /* ContentView.swift */; };
 		95979A492F91D4B6002B37F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95979A482F91D4B6002B37F9 /* Assets.xcassets */; };
 		95979A4D2F91D4B6002B37F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95979A4C2F91D4B6002B37F9 /* Preview Assets.xcassets */; };
+		95979A542F91ED7D002B37F9 /* Unit01.txt in Resources */ = {isa = PBXBuildFile; fileRef = 95979A532F91ED7D002B37F9 /* Unit01.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		95979A482F91D4B6002B37F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95979A4A2F91D4B6002B37F9 /* KeyboardTyper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyboardTyper.entitlements; sourceTree = "<group>"; };
 		95979A4C2F91D4B6002B37F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95979A532F91ED7D002B37F9 /* Unit01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Unit01.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		95979A432F91D4B4002B37F9 /* KeyboardTyper */ = {
 			isa = PBXGroup;
 			children = (
+				95979A532F91ED7D002B37F9 /* Unit01.txt */,
 				95979A442F91D4B4002B37F9 /* KeyboardTyperApp.swift */,
 				95979A462F91D4B4002B37F9 /* ContentView.swift */,
 				95979A482F91D4B6002B37F9 /* Assets.xcassets */,
@@ -129,6 +132,7 @@
 			files = (
 				95979A4D2F91D4B6002B37F9 /* Preview Assets.xcassets in Resources */,
 				95979A492F91D4B6002B37F9 /* Assets.xcassets in Resources */,
+				95979A542F91ED7D002B37F9 /* Unit01.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,10 +289,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = darren.KeyboardTyper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -321,10 +326,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = darren.KeyboardTyper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
